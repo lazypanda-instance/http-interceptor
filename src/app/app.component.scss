@@ -1,0 +1,57 @@
+.file-drop-style {
+  border: 1px dotted black;
+  width: 320px;
+  height: 200px;
+  background-color: lightgray;
+  margin: 20px auto;
+  border-radius: 10px;
+
+  .txt-style {
+    text-align: center; margin-top: 25%; font-size: 20px; color: gray;
+  }
+}
+
+.progress-feature {
+  display: grid;
+  grid-template-columns: 0.7fr 10fr 0.3fr;
+  width: 70%;
+  margin: auto;
+
+  .file-snap {
+    background-color: #FFFFFF;
+    margin-top: -4px;
+    margin-left: 12px;
+  }
+  .progress {
+    height: 18px;
+    width: 100%;
+    border: 1px solid #E6E7E8;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 3px;
+  }
+  .progress-bar {
+    background: linear-gradient(270deg, #20BDEF 0%, #127EB8 100%);
+    width: 0%;
+    border-radius: 25px;
+  }
+  .complete-txt {
+    font-size: 0.6875rem;
+    color: #4D4D4F;
+    letter-spacing: 0.32px;
+    line-height: 14px;
+    padding-left: 10px;
+    padding-top: 2px;
+  }
+  .close-btn {
+    cursor: pointer;
+    padding-left: 5px;
+    margin-top: -8px;
+    width: 20px;
+    height: 15px;
+  }
+  .error-txt {
+    padding-left: 10px;
+    color: red;
+  }
+}
